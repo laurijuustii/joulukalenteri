@@ -1,19 +1,19 @@
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto;
+.menu-container {
+  display: inline-block;
+  grid-template-columns:auto;
   background-color: #bd3f3f;
   padding: 10px;
-  grid-template-rows:160px 160px 160px 160px 160px 160px 160px 160px;
-  grid-template-columns:160px 160px 160px 160px 160px 160px;
+  height: 100%;
+  width: 100%;
+
  justify-content: center;
  text-align: center;
 }
-.grid-item {
+.menu-item {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
-  font-size: 35px;
   text-align: center;
   align-content: center;
 }
@@ -24,4 +24,32 @@
   visibility: hidden;
   transition: visibility 2s, opacity 2s linear;
   background-color: red;
+}
+.button-container {
+  width: 800px;
+  height: 800px;
+  background: rgb(255, 0, 0);
+  overflow-y: auto;
+  text-align: center;
+  display:inline;
+  align-content: center;
+  
+}
+
+.button-container = button {
+  width: 150px;
+  height: 150px;
+  float: right;
+  background: lightgray;   
+  
+}
+.button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color:white;
+  padding: 45% 3%;
+  cursor: pointer;
+  text-align: center;
+  align-content: center;
 }
