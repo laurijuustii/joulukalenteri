@@ -1,0 +1,27 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #bd3f3f;
+  padding: 10px;
+  grid-template-rows:160px 160px 160px 160px 160px 160px 160px 160px;
+  grid-template-columns:160px 160px 160px 160px 160px 160px;
+ justify-content: center;
+ text-align: center;
+}
+.grid-item {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 35px;
+  text-align: center;
+  align-content: center;
+}
+
+
+.grid-item:hover{
+  padding: 2%;
+  visibility: hidden;
+  transition: visibility 2s, opacity 2s linear;
+  background-color: red;
+}
