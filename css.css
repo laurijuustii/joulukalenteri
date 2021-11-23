@@ -1,14 +1,13 @@
-
 .menu-container {
   display: inline-block;
-  grid-template-columns:auto;
+  grid-template-columns: auto;
   background-color: #bd3f3f;
   padding: 10px;
   height: 100%;
   width: 100%;
 
- justify-content: center;
- text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 .menu-item {
   background-color: rgb(255, 255, 255);
@@ -18,8 +17,7 @@
   align-content: center;
 }
 
-
-.grid-item:hover{
+.grid-item:hover {
   padding: 2%;
   visibility: hidden;
   transition: visibility 2s, opacity 2s linear;
@@ -31,23 +29,21 @@
   background: rgb(255, 0, 0);
   overflow-y: auto;
   text-align: center;
-  display:inline;
+  display: inline;
   align-content: center;
-  
 }
 
 .button-container = button {
   width: 150px;
   height: 150px;
   float: right;
-  background: lightgray;   
-  
+  background: lightgray;
 }
 .button {
   display: block;
   width: 100%;
   border: none;
-  background-color:white;
+  background-color: white;
   padding: 45% 3%;
   cursor: pointer;
   text-align: center;
