@@ -5,7 +5,7 @@ function saakoAvata(dateString) {
     
     console.log(luukku);
     console.log(tanaan);
-    if (luukku >= tanaan) {
+    if (luukku <= tanaan) {
         console.log("ÄLÄ AVAA VIELÄ")
         document.getElementById(dateString).src ="cat.jpg";
 
@@ -17,7 +17,6 @@ function saakoAvata(dateString) {
     // saa avata
 
     //muuten ei saa
-}
-function annaQuote(){
-    return //yksi quote listasta quoteja erillisessä tiedostossa
+
+    //!!!!!!!!! vielä esim parametriksi string-muuttuja, jossa kuvan luukkukuvan nimi esim "luukku1.jpg", että saadaan oikea kuva oikeaan kohtaan
 }

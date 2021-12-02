@@ -1,51 +1,27 @@
-.menu-container {
-  display: inline-block;
-  grid-template-columns: auto;
-  background-color: #bd3f3f;
-  padding: 10px;
-  height: 100%;
-  width: 100%;
-
-  justify-content: center;
-  text-align: center;
-}
-.menu-item {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 10px;
-  text-align: center;
-  align-content: center;
-}
-
-.grid-item:hover {
-  padding: 2%;
-  visibility: hidden;
-  transition: visibility 2s, opacity 2s linear;
-  background-color: red;
-}
-.button-container {
-  width: 800px;
-  height: 800px;
-  background: rgb(255, 0, 0);
-  overflow-y: auto;
-  text-align: center;
-  display: inline;
-  align-content: center;
-}
-
-.button-container = button {
-  width: 150px;
-  height: 150px;
-  float: right;
-  background: lightgray;
-}
-.button {
-  display: block;
-  width: 100%;
-  border: none;
-  background-color: white;
-  padding: 45% 3%;
+img:hover {
   cursor: pointer;
-  text-align: center;
-  align-content: center;
+  filter: brightness(1.3);
+}
+
+body {
+  background-color: #bd3f3f;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  margin: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.row {
+  width: max-content;
 }
