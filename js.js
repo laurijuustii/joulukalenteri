@@ -1,13 +1,14 @@
-function saakoAvata(dateString) {
+function saakoAvata(dateString, kuva) {
     var luukku = new Date(dateString);
     var tanaan = new Date();
     console.log(tanaan.getDate());
+    console.log(kuva)
     
     console.log(luukku);
     console.log(tanaan);
     if (luukku <= tanaan) {
         console.log("ÄLÄ AVAA VIELÄ")
-        document.getElementById(dateString).src ="cat.jpg";
+        document.getElementById(dateString).src =kuva;
 
     }
     else { console.log("Saa avata")};
